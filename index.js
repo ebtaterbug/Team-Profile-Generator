@@ -66,7 +66,7 @@ let engineerCard = (Engineer) => {
             <ul class="list-group">
                 <li class="list-group-item">ID: ${Engineer.id}</li>
                 <li class="list-group-item">Email: <a href="mailto:${Engineer.email}">${Engineer.email}</a></li>
-                <li class="list-group-item">GitHub: ${Engineer.getGithub()}</li>
+                <li class="list-group-item">GitHub: <a href="${Engineer.getGithub()}">${Engineer.getGithub()}</a></li>
             </ul>
         </div>
     </div>
